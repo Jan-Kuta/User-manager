@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User table row it should match 1`] = `
+<React.Fragment>
+  <ForwardRef(WithStyles)>
+    <ForwardRef(WithStyles)>
+      <ForwardRef(WithStyles)
+        aria-label="expand row"
+        onClick={[Function]}
+        size="small"
+      >
+        <UNDEFINED />
+      </ForwardRef(WithStyles)>
+    </ForwardRef(WithStyles)>
+    <ForwardRef(WithStyles)
+      align="right"
+    >
+      Jan
+    </ForwardRef(WithStyles)>
+    <ForwardRef(WithStyles)
+      align="right"
+    >
+      Kuta
+    </ForwardRef(WithStyles)>
+    <Hidden
+      xsDown={true}
+    >
+      <ForwardRef(WithStyles)
+        align="right"
+      >
+        Kuticzech
+      </ForwardRef(WithStyles)>
+    </Hidden>
+    <ForwardRef(WithStyles)
+      align="right"
+    >
+      <ForwardRef(WithStyles)
+        placement="left"
+        title="Nový"
+      >
+        <UNDEFINED
+          style={
+            Object {
+              "color": "#ff9800",
+            }
+          }
+        />
+      </ForwardRef(WithStyles)>
+    </ForwardRef(WithStyles)>
+    <Hidden
+      xsDown={true}
+    >
+      <ForwardRef(WithStyles)
+        align="right"
+      >
+        <ForwardRef(WithStyles)
+          placement="left"
+          title="Upravit"
+        >
+          <ForwardRef(WithStyles)
+            onClick={[Function]}
+            size="small"
+          >
+            <UNDEFINED />
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+        <ForwardRef(WithStyles)
+          placement="left"
+          title="Smazat"
+        >
+          <ForwardRef(WithStyles)
+            onClick={[Function]}
+            size="small"
+          >
+            <UNDEFINED />
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+      </ForwardRef(WithStyles)>
+    </Hidden>
+  </ForwardRef(WithStyles)>
+  <ForwardRef(WithStyles)>
+    <ForwardRef(WithStyles)
+      colSpan={6}
+      style={
+        Object {
+          "paddingBottom": 0,
+          "paddingTop": 0,
+        }
+      }
+    >
+      <ForwardRef(WithStyles)
+        in={false}
+        timeout="auto"
+        unmountOnExit={true}
+      >
+        <ForwardRef(StyledComponent)
+          margin={1}
+        >
+          <UserDetail
+            user={
+              Object {
+                "contactAddress": Object {
+                  "city": "Nejdek",
+                  "street": "Kollárova 964",
+                  "zip": "362 21",
+                },
+                "email": "jan.kuta@email.cz",
+                "firstName": "Jan",
+                "id": "u1",
+                "lastName": "Kuta",
+                "permanentAddress": Object {
+                  "city": "Ústí nad Labem",
+                  "street": "Žežická 39",
+                  "zip": "400 07",
+                },
+                "phone": "+420 775 246 369",
+                "state": "STATE_NEW",
+                "username": "Kuticzech",
+              }
+            }
+          />
+          <Hidden
+            smUp={true}
+          >
+            <div>
+              <ForwardRef(WithStyles)
+                aria-label="Upravit"
+                color="primary"
+                onClick={[Function]}
+                size="small"
+                startIcon={<UNDEFINED />}
+                variant="contained"
+              >
+                Upravit
+              </ForwardRef(WithStyles)>
+              <ForwardRef(WithStyles)
+                aria-label="Smazat"
+                color="secondary"
+                onClick={[Function]}
+                size="small"
+                startIcon={<UNDEFINED />}
+                variant="contained"
+              >
+                Smazat
+              </ForwardRef(WithStyles)>
+            </div>
+          </Hidden>
+        </ForwardRef(StyledComponent)>
+      </ForwardRef(WithStyles)>
+    </ForwardRef(WithStyles)>
+  </ForwardRef(WithStyles)>
+</React.Fragment>
+`;

@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User table it should match 1`] = `
+<React.Fragment>
+  <ForwardRef(WithStyles)>
+    <ForwardRef(WithStyles)>
+      <div>
+        <UNDEFINED />
+        <ForwardRef(WithStyles)
+          component="div"
+          id="tableTitle"
+          variant="h6"
+        >
+          Seznam uživatelů
+        </ForwardRef(WithStyles)>
+      </div>
+      <ForwardRef
+        to="/users/create"
+      >
+        <ForwardRef(WithStyles)
+          placement="left"
+          title="Přidat uživatele"
+        >
+          <ForwardRef(WithStyles)
+            aria-label="add user"
+          >
+            <UNDEFINED />
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+      </ForwardRef>
+    </ForwardRef(WithStyles)>
+    <ForwardRef(WithStyles)>
+      <ForwardRef(WithStyles)
+        aria-label="collapsible table"
+        size="small"
+        stickyHeader={true}
+      >
+        <ForwardRef(WithStyles)>
+          <ForwardRef(WithStyles)>
+            <ForwardRef(WithStyles) />
+            <ForwardRef(WithStyles)
+              align="right"
+            >
+              Jméno
+            </ForwardRef(WithStyles)>
+            <ForwardRef(WithStyles)
+              align="right"
+            >
+              Příjmení
+            </ForwardRef(WithStyles)>
+            <Hidden
+              xsDown={true}
+            >
+              <ForwardRef(WithStyles)
+                align="right"
+              >
+                Uživatelské jméno
+              </ForwardRef(WithStyles)>
+            </Hidden>
+            <ForwardRef(WithStyles)
+              align="right"
+            >
+              Stav
+            </ForwardRef(WithStyles)>
+            <Hidden
+              xsDown={true}
+            >
+              <ForwardRef(WithStyles)
+                align="right"
+              >
+                Akce
+              </ForwardRef(WithStyles)>
+            </Hidden>
+          </ForwardRef(WithStyles)>
+        </ForwardRef(WithStyles)>
+        <ForwardRef(WithStyles)>
+          <UserTableRow
+            openUserDeleteDialog={[Function]}
+            openUserEditDialog={[Function]}
+            user={
+              Object {
+                "contactAddress": Object {
+                  "city": "Nejdek",
+                  "street": "Kollárova 964",
+                  "zip": "362 21",
+                },
+                "email": "jan.kuta@email.cz",
+                "firstName": "Jan",
+                "id": "u1",
+                "lastName": "Kuta",
+                "permanentAddress": Object {
+                  "city": "Ústí nad Labem",
+                  "street": "Žežická 39",
+                  "zip": "400 07",
+                },
+                "phone": "+420 775 246 369",
+                "state": "STATE_NEW",
+                "username": "Kuticzech",
+              }
+            }
+          />
+          <UserTableRow
+            openUserDeleteDialog={[Function]}
+            openUserEditDialog={[Function]}
+            user={
+              Object {
+                "email": "huggo.tester@gmail.com",
+                "firstName": "Huggo",
+                "id": "u2",
+                "lastName": "Tester",
+                "permanentAddress": Object {
+                  "city": "Kamenice",
+                  "street": "Vymyšlená 39",
+                  "zip": "100 01",
+                },
+                "phone": "+420 777 246 369",
+                "state": "STATE_VALIDATED",
+                "username": "Huggo",
+              }
+            }
+          />
+          <UserTableRow
+            openUserDeleteDialog={[Function]}
+            openUserEditDialog={[Function]}
+            user={
+              Object {
+                "email": "jana.kutova@email.cz",
+                "firstName": "Jana",
+                "id": "u3",
+                "lastName": "Kutová",
+                "permanentAddress": Object {
+                  "city": "Nejdek",
+                  "street": "Kollárova 964",
+                  "zip": "362 21",
+                },
+                "phone": "+420 775 246 369",
+                "state": "STATE_VIP",
+                "username": "Janciii",
+              }
+            }
+          />
+        </ForwardRef(WithStyles)>
+      </ForwardRef(WithStyles)>
+    </ForwardRef(WithStyles)>
+    <ForwardRef(WithStyles)
+      backIconButtonText="Předchozí"
+      component="div"
+      count={3}
+      labelDisplayedRows={[Function]}
+      labelRowsPerPage="Počet záznamů na stránce"
+      nextIconButtonText="Následující"
+      onChangePage={[Function]}
+      onChangeRowsPerPage={[Function]}
+      page={0}
+      rowsPerPage={5}
+      rowsPerPageOptions={
+        Array [
+          5,
+          10,
+          25,
+        ]
+      }
+    />
+  </ForwardRef(WithStyles)>
+</React.Fragment>
+`;
